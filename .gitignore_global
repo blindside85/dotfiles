@@ -1,0 +1,25 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.swp
+*~
+
+# OS or Editor folders
+.DS_Store
+.cache
+
+# Node.js package manager
+/bower_components
+/node_modules
+/npm-debug.log
+
+# Other stuff
+/tmp
+
+# Project stuff
+yarn.lock
+package-lock.json
+.bundle
+/vendor/bundle
