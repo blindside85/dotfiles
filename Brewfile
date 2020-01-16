@@ -29,10 +29,13 @@ brew "ripgrep" # rust-powered alt to `grep`
 
 # cask applications
 cask "alfred"
+cask "boostnote"
 cask "dropbox"
 cask "firefox-developer-edition"
+cask "gas-mask"
 cask "google-chrome"
 cask "iterm2"
+cask "libreoffice"
 cask "p4v" # formerly p4merge
 cask "paw"
 cask "postico"

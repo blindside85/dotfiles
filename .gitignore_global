@@ -21,5 +21,6 @@
 # Project stuff
 yarn.lock
 package-lock.json
+.vscode
 .bundle
 /vendor/bundle

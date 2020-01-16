@@ -33,11 +33,12 @@
 	required = true
 	smudge = git-lfs smudge -- %f
 [color]
-	ui = true
+	ui = always
 [core]
 	editor = code
 	excludesfile = ~/.gitignore_global
-	pager = diff-so-fancy | less --tabs=4 -RFX
+  # pretty diffs, allow mousewheel scrolling
+	pager = diff-so-fancy | less --tabs=4 -+FX
 [git-up "rebase"]
 	auto = false
 [difftool "sourcetree"]
@@ -50,15 +51,15 @@
 	template = ~/.stCommitMsg
 [fetch]
 	prune = true
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
 [color "diff-highlight"]
 	oldNormal = red bold
 	oldHighlight = red bold 52
 	newNormal = green bold
 	newHighlight = green bold 22
-[color "diff"]
-	meta = 11
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
