@@ -18,6 +18,7 @@ brew "fd"            # rust-powered alt to `find`
 brew "fish"          # best shell ever
 brew "fzf"           # rust-powered fuzzy finder cli tool
 brew "git"
+brew "node"
 brew "openssl"
 brew "postgresql"
 brew "pv"            # monitor shell file download progress
