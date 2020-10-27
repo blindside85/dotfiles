@@ -4,7 +4,7 @@
 	default = simple
 [user]
 	email = jessedupuy@gmail.com
-	name = blindside85
+	name = Jesse Dupuy
 [alias]
 	br = branch
 	cm = commit -m
@@ -35,7 +35,7 @@
 [color]
 	ui = always
 [core]
-	editor = code
+	editor = vim
 	excludesfile = ~/.gitignore_global
   # pretty diffs, allow mousewheel scrolling
 	pager = diff-so-fancy | less --tabs=4 -+FX
@@ -63,3 +63,5 @@
 	oldHighlight = red bold 52
 	newNormal = green bold
 	newHighlight = green bold 22
+[pull]
+	rebase = false
