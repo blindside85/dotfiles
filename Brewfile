@@ -10,10 +10,9 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mas-cli/tap" # grab apps from the App Store
-tap "vitorgalvao/tiny-scripts" # contribute to Homebrew
-
 
 # brew
+brew "awscli"
 brew "bat"           # rust-powered alt to `cat`
 brew "openssl@1.1"
 brew "coreutils"     # GNU replacements for OSX' garbo tools
@@ -39,11 +38,9 @@ brew "ripgrep"       # rust-powered alt to `grep`
 brew "tmux"
 brew "ykman"         # manage Yubikey from the shell
 brew "z"             # directory jumper using 'frecency'
-brew "vitorgalvao/tiny-scripts/cask-repair" # used in Homebrew contributions
 
 # cask applications
 cask "1password"
-cask "adoptopenjdk" # screaming-frog-seo-spider dependency (java 7+)
 cask "alfred"
 cask "appcleaner"
 cask "cyberduck"
@@ -59,9 +56,10 @@ cask "notion"
 cask "p4v" # formerly p4merge
 cask "paw"
 cask "postico"
-cask "screaming-frog-seo-spider"
+cask "rectangle"
 cask "spotify"
 cask "visual-studio-code"
+cask "zoom"
 
-# MacOS App Store apps
+# MacOS App Store apps (must be signed into App Store to work)
 mas "Microsoft Remote Desktop", id: 715768417
